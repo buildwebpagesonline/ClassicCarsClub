@@ -1,0 +1,255 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /*outline: 1px solid red;*/
+}
+/*----------------------------------Navigation starts here------------------------------------------------------*/
+
+body {
+  font-family: "IBM Plex Sans Thai Looped", sans-serif;
+  background-image: url("media/imagefive.jpg");
+}
+
+.nav-one {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 100%;
+  align-items: center;
+  padding: 0px 5px 0px 5px;
+  background-color: bisque;
+  position: fixed;
+  top: 0;
+  margin-bottom: 5px;
+}
+
+@media only screen and (max-width: 1036px) {
+  .nav-one {
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+  }
+}
+
+.title {
+  font-size: 1.8rem;
+  padding: 10px;
+  font-family: "Neonderthaw", cursive;
+}
+
+.nav-one li {
+  display: inline;
+  padding: 10px;
+  font-size: 1.1rem;
+}
+
+.nav-one ul a {
+  text-decoration: none;
+  color: black;
+}
+
+.nav-one ul :hover {
+  font-size: 1.2rem;
+  color: goldenrod;
+}
+
+/*-------------------------------------Section one starts here--------------------------------------------------------*/
+
+.section-one {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  margin-top: 200px;
+  margin-bottom: 10px;
+  padding: 15px 35px 10px 35px;
+}
+
+@media only screen and (max-width: 1000px) {
+  .section-one {
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 280px;
+  }
+}
+
+.first-pic {
+  width: 430px;
+  height: 350px;
+}
+
+.welcome-ms {
+  width: 350px;
+  height: 300px;
+}
+
+.welcome-ms p {
+  color: white;
+}
+
+.second-pic {
+  width: 430px;
+  height: 350px;
+}
+
+.image-one,
+.image-two {
+  height: 400px;
+}
+
+/*------------------------------------------------Section Two Starts Here-----------------------------------------------------*/
+
+.section-two {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  width: 100%;
+  /*height: 400px;*/
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+@media only screen and (max-width: 1000px) {
+  .section-two {
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+}
+
+.section-two p {
+  color: white;
+}
+
+.text-two {
+  width: 450px;
+  height: 350px;
+}
+
+.textthree {
+  width: 450px;
+  height: 350px;
+}
+
+h2 {
+  text-align: center;
+  color: blue;
+}
+
+.imagethree {
+  height: 400px;
+}
+.third-pic {
+  width: 430px;
+  height: 350px;
+}
+/*------------------------------------This is where the footer starts--------------------------------------*/
+
+footer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  width: 100%;
+  align-items: center;
+  margin-top: 10px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-bottom: 10px;
+}
+
+@media only screen and (max-width: 1000px) {
+  .bottom-page {
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+  }
+}
+
+.infolinks a {
+  text-decoration: none;
+  font-size: 1.5rem;
+  color: white;
+}
+
+.bottom-page ul :hover {
+  font-size: 1.8rem;
+  color: gold;
+}
+
+.bottom-page li {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  font-size: 0.8rem;
+}
+
+.location {
+  display: flex;
+  flex-direction: column;
+}
+.card-image {
+  height: 210px;
+  /*width: 250px;*/
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url("media/imagefour.jpg");
+  border-top-left-radius: 5%;
+  border-top-right-radius: 5%;
+}
+.location h3 {
+  text-align: center;
+  padding: 5px;
+  margin-top: 10px;
+}
+.location p {
+  padding: 5px;
+  color: black;
+}
+
+.card-contacts {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: bisque;
+  border-bottom-left-radius: 5%;
+  border-bottom-right-radius: 5%;
+}
+
+.card-contacts p {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.mail {
+  width: 50%;
+  padding: 10px;
+}
+
+.subscribe {
+  width: 50%;
+  margin: 10px 10px 30px 10px;
+  padding: 5px 10px 5px 10px;
+  font-weight: bold;
+  background-color: coral;
+}
+
+.inst,
+.meta,
+.twit,
+.pint {
+  margin: 10px;
+}
+
+.social-links h2 {
+  color: white;
+}
+
+.last-words {
+  color: blue;
+  text-align: center;
+}
