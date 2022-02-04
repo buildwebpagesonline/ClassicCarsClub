@@ -179,7 +179,7 @@ footer {
 @media only screen and (max-width: 1000px) {
   .bottom-page {
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
   }
 }
