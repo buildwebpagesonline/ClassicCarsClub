@@ -184,6 +184,18 @@ footer {
   }
 }
 
+.social-links {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.social-links h2:hover {
+  font-size: 1.8rem;
+  color: gold;
+}
+
 .infolinks a {
   text-decoration: none;
   font-size: 1.5rem;
